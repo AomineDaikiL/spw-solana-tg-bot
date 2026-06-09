@@ -1,3 +1,4 @@
+import "dotenv/config";
 import TelegramBot from "node-telegram-bot-api";
 import { getTokenInfo, getPriceAlert, formatNumber, formatAge } from "./utils.js";
 
