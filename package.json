@@ -1,0 +1,15 @@
+{
+  "name": "solana-memecoin-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Telegram bot untuk monitoring Solana memecoin",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  }
+}
